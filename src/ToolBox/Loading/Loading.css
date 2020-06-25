@@ -1,0 +1,37 @@
+.toolbox--loading--br {
+  border-radius: 8px;  
+}
+
+.toolbox--loading--main {
+	display: flex;
+	flex: 1;
+}
+
+.toolbox--loading--wrapper {
+	width: 100vw;
+	height: calc(100vh - 70px);
+  	display: flex;
+  	flex: 1;;
+  	animation: fullView 0.5s forwards linear;
+}
+
+@keyframes fullView {
+  	100% {
+    	width: 100%;
+  	}
+}
+
+.toolbox--loading--animate {
+   	animation : shimmer 1s infinite;
+   	background: linear-gradient(to right, #ebebec 4%, #d8d7d7  65%, #ebebec 36%);
+   	background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+  	0% {
+    	background-position: -1000px 0;
+  	}
+  	100% {
+    	background-position: 1000px 0;
+  	}
+}

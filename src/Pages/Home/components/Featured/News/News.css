@@ -1,0 +1,35 @@
+
+.featured--news--container {
+	flex:  0 0 auto;
+	background: var( --secondaryBack);
+	color: var( --secondaryFont);
+	padding: 15px 15px;
+	width: 120px;
+	height: 200px;
+	border-radius: 5px;
+	margin: 0 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.featured--news {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 230px;
+	width: 150px;
+}
+
+.featured--news--heading {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	width: 120px;
+}
+
+.featured--news--heading h2 {
+	font-weight: 500;
+	font-size: 20px;
+	text-align: right;
+	text-overflow: clip;
+}

@@ -1,0 +1,20 @@
+
+.home--states--stateSmall--container {
+	width : calc(100% - 40px);
+	padding: 20px 20px;
+	border-bottom: #c0c0c03b 1px solid;
+	color: #c0c0c0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.home--states--stateSmall--heading h2 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.home--states--stateSmall--content p {
+	font-weight: 500;
+	font-size: 16px;
+}

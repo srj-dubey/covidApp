@@ -1,0 +1,30 @@
+
+.home--india--container {
+	width: calc(100% - 40px);
+	padding: 30px 20px 5px 20px;
+}
+
+.home--india--heading--container {
+	display: flex;
+	align-items: center;
+}
+
+.home--india--heading--icon img {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+
+.home--india--heading h1 {
+	font-weight: 900;
+	font-size: 32px;
+	letter-spacing: 0.7px;
+	color: var( --primaryFont);
+}
+
+.home--india--main--wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 15px 0 0 0;
+}

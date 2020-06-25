@@ -1,0 +1,12 @@
+
+.featured--container {
+	padding: 0px 15px 25px 15px;
+}
+
+.featured--scrollWrap {
+	padding-bottom: 20px;
+	overflow-x: auto;
+	display: flex;
+	justify-content: flex-start;
+	-webkit-overflow-scrolling: touch;
+}

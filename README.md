@@ -19,6 +19,5 @@
 <h6>Note:</h6>
 <p>Also API used is developed by <a href="https://github.com/amodm">Amod Malviya</a> and can be found at: <a href="https://github.com/amodm/api-covid19-in">api-covid19-in</a></p>
 <br/>
-
 <p>Please ask, before any use.</p>  
 <h5>Srj. D.</h5>
